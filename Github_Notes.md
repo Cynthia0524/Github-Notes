@@ -1,17 +1,22 @@
 ##Initialize A Folder (for Mac Terminal)
+
 cd ~/Desktop
 git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_FOLDER_NAME.git
 cd YOUR_FOLDER_NAME
+
 #now you have a folder on the desktop, connected to your github
 
 ##Add/Check Remotes
 #make sure you are in the github connected folder
+
 git remote -v
+
 #add a "upstream" remote, and check
+
 git remote add upstream https://github.com/ANOTHER_GITHUB_USERNAME/ANOTHER_FOLDER_NAME.git
 git remote -v
 
-##Update Your Fork
+##Update Your Fork\n
 #check your branch
 git branch
 git checkout master
