@@ -26,6 +26,7 @@ git branch
 git checkout master
 
 ### pull "upstream" content to local
+git fetch upstream
 git pull upstream master
 ### push local content to "origin"
 git push origin master
